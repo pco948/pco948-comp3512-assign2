@@ -1,0 +1,112 @@
+header h1.mdl-layout-title {
+    font-size: 32px;
+    color: white;
+}
+header h1 span {
+    color: #ff6e40;
+}
+
+.profile {
+   background-color: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.profile span {
+   font-size: 90%;   
+}
+.avatar {
+  width: 96px;
+  height: 96px;  
+  border-radius: 50%;
+    
+  display: block;
+}
+
+.page-content {
+  margin: 10px;   
+}
+
+main header {
+    margin: 0;
+    min-height: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+main header h4 {
+  margin: 0; 
+    
+    font-size: 18px;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+  margin: 10px;
+}
+.demo-card-square > .mdl-card__title-university {
+  color: #fff;
+  background:
+    url('../images/university-logo.png') bottom right 15% no-repeat #46B6AC;
+}
+.demo-card-square > .mdl-card__title-aboutus {
+  color: #fff;
+  background:
+    url('../images/contract.png') bottom right 15% no-repeat #46B6AC;
+}
+.demo-card-square > .mdl-card__title-employee {
+  color: #fff;
+  background:
+    url('../images/employee.png') bottom right 15% no-repeat #46B6AC;
+}
+.demo-card-square > .mdl-card__title-books {
+  color: #fff;
+  background:
+    url('../images/library.png') bottom right 15% no-repeat #46B6AC;
+}
+.article-image {
+  width: 70%;
+  height: 5%;
+}
+.mdl-card__title-text-index{
+  margin-top: 70%;
+  margin-left: 5%;
+    color: inherit;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    overflow: hidden;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+.book-details-td{
+  text-align: left;
+}
+.about-us-info{
+  margin: 8px;
+}
+#card-height{
+  height:30%;
+}
+.mdl-card__actions {
+    font-size: 16px;
+    line-height: normal;
+    width: 100%;
+    background-color: transparent;
+    padding: 4px;
+    box-sizing: border-box;
+}
+#indeximage{
+  padding:0px;
+}
+
+.mdl-card__title > img {
+  width:100%;
+  height:290px; 
+
+  padding:0px;
+}
